@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=Launch Neovim in tmux inside Kitty
 Comment=Launch Neovim in tmux inside Kitty
-Exec=kitty --start-as maximized -e /home/nfxii/.config/nvim/script/launch-nvim.sh
+Exec=kitty --start-as maximized -e $HOME/.config/nvim/script/launch-nvim.sh
 GenericName[en_US]=lazyvim
 GenericName=lazyvim
 Icon=nvim
